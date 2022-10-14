@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>React App</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <div class="header_container">
+      <div class="player">
+        <img class="player_img" src="./img/player.png" alt="" />
+      </div>
+      <div class="logo"><a href="./index.html"><img src="./img/logo.png" alt="" /></a></div>
+      <nav>
+        <div class="nav_container">
+          <a href="#"><img src="./img/search_logo.png" alt="" /></a>
+          <a href="#">Live</a>
+          <a href="#">Music</a>
+          <a href="#">Charts</a>
+          <a href="#">Events</a>
+          <a href="#">Features</a>
+          <!-- <a href="#"><img class="user_photo" src="./img/track_img.png" alt=""></a> -->
+        </div>
+      </nav>
+    </div>
+
+    <div class="search_res_container mr-r-5 mr-t-3">
+      <h1 class="search_text">Search result for "never gonna give you up"</h1>
+    </div>
+
+    <div class="btn_container mr-r-5">
+      <fieldset id="radio_group" class="radio_fieldlist">
+        <div class="radio_btn">
+          <input type="radio" id="Result" name="radio_group" value="Result" />
+          <label class="radio_label" for="Result">Top Result</label>
+        </div>
+        <div class="radio_btn">
+          <input type="radio" id="Artist" name="radio_group" value="Artist" />
+          <label class="radio_label" for="Artist">Artist</label>
+        </div>
+        <div class="radio_btn">
+          <input type="radio" id="Albums" name="radio_group" value="Albums" />
+          <label class="radio_label" class="radio_label" for="Albums"
+            >Albums</label
+          >
+        </div>
+        <div class="radio_btn">
+          <input type="radio" id="Tracks" name="radio_group" value="Tracks" />
+          <label class="radio_label" for="Tracks">Tracks</label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="underline_long gray"></div>
+
+    <div class="content_container mr-t-3 mr-r-5">
+      <div class="left_column">
+        <div class="input_container">
+          <input class="search_input" type="text" name="" id="" />
+        </div>
+        <div class="artist_container mr-t-3">
+          <div class="artist_header">
+            <h2>Artist</h2>
+          </div>
+          <div class="artist_list mr-t-3">
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake Drake Drake Drake Drake Drake Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/drake.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">Drake</p>
+                <p class="listener_counter artist_card_text">14567 listeners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="artist_container mr-t-3">
+          <div class="artist_header">
+            <h2>Albums</h2>
+          </div>
+          <div class="artist_list mr-t-3">
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+            <div class="art_card_music">
+              <img class="art_card_music_img" src="./img/never_gonna.jpg" alt="" />
+              <div class="art_card_music_text_container">
+                <p class="artist_name artist_card_text">never gonna give you up</p>
+                <p class="listener_counter artist_card_text">∞ listeners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="artist_container mr-t-3">
+          <div class="artist_header">
+            <h2>Tracks</h2>
+          </div>
+          <div class="track_list mr-t-3">
+            
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            <div class="track_card">
+              <div class="play-button-outer">
+                <button class="play-button">play</button>
+              </div>
+              <div class="img_track_container">
+                <img class="img_track" src="./img/never_gonna.jpg" alt="" />
+              </div>
+              <div class="play-button-outer">
+                <button class="play-button">love</button>
+              </div>
+              <div class="song_name_container">
+                <p class="song_name">Never gonna give you up</p>
+              </div>
+              <div class="song__artis_container">
+                <p class="artist_name_text">Rick Astley</p>
+              </div>
+              <div class="song__time_container">
+                <p class="time_name">4:20</p>
+              </div>
+              
+            </div>
+            <div class="underline_long_song mr-t-1"></div>
+            
+          </div>
+        </div>
+        
+      </div>
+      <div class="right_column"></div>
+    </div>
+
+    <footer>
+      <div class="info_links_container">
+        <div class="links">
+          <p class="links_header">Company</p>
+          <p class="links_element"><a href="#">About Last.fm</a></p>
+          <p class="links_element"><a href="#">Contact Us</a></p>
+          <p class="links_element"><a href="#">Jobs</a></p>
+        </div>
+        <div class="links">
+          <p class="links_header">HELP</p>
+          <p class="links_element"><a href="#">Track My Music</a></p>
+          <p class="links_element"><a href="#">Community Support</a></p>
+          <p class="links_element"><a href="#">Community Guidelines</a></p>
+          <p class="links_element"><a href="#">Help</a></p>
+        </div>
+        <div class="links">
+          <p class="links_header">GOODIES</p>
+          <p class="links_element"><a href="#">Download Scrobbler</a></p>
+          <p class="links_element"><a href="#">Developer API</a></p>
+          <p class="links_element"><a href="#">Free Music Downloads</a></p>
+          <p class="links_element"><a href="#">Merchandise</a></p>
+        </div>
+        <div class="links">
+          <p class="links_header">ACCOUNT</p>
+          <p class="links_element"><a href="#">About Last.fm</a></p>
+          <p class="links_element"><a href="#">Contact Us</a></p>
+          <p class="links_element"><a href="#">Jobs</a></p>
+        </div>
+        <div class="links">
+          <p class="links_header">FOLLOW US</p>
+          <p class="links_element"><a href="#">Sign Up</a></p>
+          <p class="links_element"><a href="#">Log In</a></p>
+          <p class="links_element"><a href="#">Subscribe</a></p>
+        </div>
+      </div>
+      <div class="underline_long"></div>
+      <div class="footer_down_container">
+        <div class="language_selector">
+          <p>
+            <span class="lang"><a href="">English</a></span>
+            <span class="lang"><a href="">Deutsch</a></span>
+            <span class="lang"><a href="">Español</a></span>
+            <span class="lang"><a href="">Français</a></span>
+            <span class="lang"><a href="">Italiano</a></span>
+            <span class="lang"><a href="">日本語</a></span>
+            <span class="lang"><a href="">Polski</a></span>
+            <span class="lang"><a href="">Português</a></span>
+            <span class="lang"><a href="">Русский</a></span>
+            <span class="lang"><a href="">Svenska</a></span>
+            <span class="lang"><a href="">Türkçe</a></span>
+          </p>
+          <p class="time_zone">
+            Time zone: <span class="white_text">Europe/Moscow</span>
+          </p>
+        </div>
+        <div class="footer_logo">
+          <p class="footer_logo_text white_text">Audioscrobbler</p>
+          <img src="./img/footer_logo.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card_container {
+  margin-top: -5%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  /* height: 100px; */
+  display: flex;
+  /* border: 2px red solid; */
+  margin: 5px;
+}
+
+.music_img {
+  float: left;
+  width: 20%;
+  /* height: 100%; */
+}
+
+.text_container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.music_name {
+  font-weight: 700;
+}
+
+.music_type {
+  color: gray;
+}
+
+.artist_img {
+  border-radius: 50%;
+}
+
+.artist_card_list_container {
+  margin-top: -5%;
+  margin-bottom: 5%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn_container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.btn {
+  color: white;
+  border: none;
+  font: inherit;
+  color: black;
+  background-color: transparent;
+  margin-right: 1%;
+  font-size: 20px;
+}
+
+.centred_track_container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.text_centred {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.h1 {
+  margin-top: 10%;
+  font-size: 50px;
+}
+
+.underline {
+  margin: 20px auto;
+  width: 40%;
+  border-bottom: 2px solid brown;
+}
+
+.underline_long {
+  width: 100%;
+  border-bottom: 2px solid gray;
+}
+
+.underline_long_song {
+    width: 95%;
+    border-bottom: 2px solid gray;
+  }
+
+.mr-20 {
+  margin: 20px auto;
+}
+
+footer {
+  margin-top: 10%;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.info_links_container {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_container {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  /* margin-bottom: 5%; */
+  display: flex;
+  /* position: fixed; */
+}
+
+.logo {
+  margin: auto;
+}
+
+.player {
+  display: flex;
+  width: 40%;
+}
+
+.player_img {
+  width: auto;
+}
+
+nav {
+  display: flex;
+  width: 40%;
+  margin: auto 0;
+}
+nav .nav_container {
+  margin-left: auto;
+  display: flex;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+.user_photo_container {
+  width: 100%;
+  /* display: flex; */
+}
+
+.user_photo {
+  vertical-align: middle;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.lang a,
+.time_zone {
+  color: gray;
+}
+
+.lang {
+  margin-right: 5px;
+}
+
+.lang a:hover {
+  text-decoration: underline;
+}
+.footer_down_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links_header {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.white_text {
+  color: white;
+}
+
+.search_res_container {
+  display: flex;
+  width: 100%;
+}
+
+.mr-r-5 {
+  margin-left: 5%;
+}
+
+.mr-t-3 {
+  margin-top: 3%;
+}
+
+.gray {
+  color: gray;
+}
+
+.radio_fieldlist {
+  display: flex;
+  border: none;
+}
+
+.radio_btn {
+  width: auto;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked),
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label,
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  border-bottom: 2px solid brown;
+  height: 100%;
+}
+
+.radio_label {
+  font-size: 20px;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left_column {
+  display: flex;
+  width: 70%;
+
+  flex-direction: column;
+}
+
+.right_column {
+  width: 30%;
+  background-color: #f9f9f9;
+}
+
+.search_input {
+  width: 95%;
+  /* height: 150%; */
+  /* background-color: #F9F9F9; */
+  border: 2px #eeeeee solid;
+  border-radius: 3px;
+  font-size: 30px;
+}
+
+.search_input:focus {
+  outline: none;
+}
+
+.artist_list {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.art_card_music {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.art_card_music_img {
+  width: 100%;
+}
+
+.art_card_music_text_container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: 10%;
+  left: 10%;
+  position: absolute;
+}
+
+.artist_name {
+  width: 100%;
+  font-weight: 700;
+}
+
+.listener_counter {
+  width: 100%;
+}
+
+.artist_card_text {
+  color: white;
+  font-size: 20px;
+}
+
+.track_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.track_card {
+    margin-top: 1%;
+  display: flex;
+  width: 95%;
+  /* border: 2px black solid; */
+  height: 50px;
+}
+
+.play-button-outer{
+    width: 10%;
+}
+
+.play-button{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img_track_container{
+    width: 5% ;
+    margin: auto 10px;
+}
+
+.img_track{
+    width: 100%;
+}
+
+
+.song_name_container{
+    width: 50%;
+    margin: auto 10px;
+}
+
+.song__artis_container{
+    width: 20%;
+    margin: auto 10px;
+}
+
+.song__time_container{
+    margin: auto 10px;
+}
+
+.song_name{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.time_name{
+    font-size: 20px;
+    color:gray;
+}
+
+.mr-t-1{
+    margin-top:1%
+}
