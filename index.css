@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.nav_li_elem {
+  display: inline;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -36,11 +40,18 @@ body {
   margin-left: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  width: 100%;
+  max-width: 100%;
 }
 
 .music_name {
+  word-break: break-all;
+  overflow-wrap: break-word;
   font-weight: 700;
+  width: 100%;
+  height: 100%;
+  /* border:2px solid red; */
 }
 
 .music_type {
@@ -51,14 +62,17 @@ body {
   border-radius: 50%;
 }
 
+.artist_card{
+  width: 80%;
+  margin-top: 5%;
+}
+
 .artist_card_list_container {
   margin-top: -5%;
   margin-bottom: 5%;
   width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
 }
 
 .btn_container {
@@ -110,9 +124,9 @@ body {
 }
 
 .underline_long_song {
-    width: 95%;
-    border-bottom: 2px solid gray;
-  }
+  width: 95%;
+  border-bottom: 2px solid gray;
+}
 
 .mr-20 {
   margin: 20px auto;
@@ -320,7 +334,8 @@ input[type="radio"]:checked + label {
 }
 
 .art_card_music_text_container {
-  width: 90%;
+  width: 100%;
+  /* max-width: 50%; */
   display: flex;
   flex-wrap: wrap;
   bottom: 10%;
@@ -348,57 +363,55 @@ input[type="radio"]:checked + label {
 }
 
 .track_card {
-    margin-top: 1%;
+  margin-top: 1%;
   display: flex;
   width: 95%;
   /* border: 2px black solid; */
   height: 50px;
 }
 
-.play-button-outer{
-    width: 10%;
+.play-button-outer {
+  width: 10%;
 }
 
-.play-button{
-    width: 100%;
-    height: 100%;
-    
+.play-button {
+  width: 100%;
+  height: 100%;
 }
 
-.img_track_container{
-    width: 5% ;
-    margin: auto 10px;
+.img_track_container {
+  width: 5%;
+  margin: auto 10px;
 }
 
-.img_track{
-    width: 100%;
+.img_track {
+  width: 100%;
 }
 
-
-.song_name_container{
-    width: 50%;
-    margin: auto 10px;
+.song_name_container {
+  width: 50%;
+  margin: auto 10px;
 }
 
-.song__artis_container{
-    width: 20%;
-    margin: auto 10px;
+.song__artis_container {
+  width: 20%;
+  margin: auto 10px;
 }
 
-.song__time_container{
-    margin: auto 10px;
+.song__time_container {
+  margin: auto 10px;
 }
 
-.song_name{
-    font-weight: 800;
-    font-size: 20px;
+.song_name {
+  font-weight: 800;
+  font-size: 20px;
 }
 
-.time_name{
-    font-size: 20px;
-    color:gray;
+.time_name {
+  font-size: 20px;
+  color: gray;
 }
 
-.mr-t-1{
-    margin-top:1%
+.mr-t-1 {
+  margin-top: 1%;
 }
