@@ -1,0 +1,5 @@
+
+Application name	tenzorProject
+API key	2cf860f449f80740452bbcee1d7a742e
+Shared secret	4e692081acc722a1e1fedd990e251fe6
+Registered to	degenerades
