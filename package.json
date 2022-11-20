@@ -1,0 +1,22 @@
+{
+  "name": "tenzorproject",
+  "version": "1.0.0",
+  "description": "Не удалось реализовать нормальный плеер на второй странице, не хватает знаний и практики в реализации кнопок плеера хотя бы в урезаном варианте",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volkovgit/tenzorProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Volkovgit/tenzorProject/issues"
+  },
+  "homepage": "https://github.com/Volkovgit/tenzorProject#readme",
+  "devDependencies": {
+    "jsdoc": "^4.0.0"
+  }
+}

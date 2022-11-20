@@ -1,12 +1,13 @@
-function LastFmRequests() {
+export function apiConnect() {
   const lasFm = {
     url: "http://ws.audioscrobbler.com/2.0",
     apiKey: "2cf860f449f80740452bbcee1d7a742e",
     apiSecret: "4e692081acc722a1e1fedd990e251fe6",
   };
   const createUrl = (params) => {
+    params.api_key = lasFm.apiKey;
     const url = new URL(lasFm.url);
-    for (key in params) {
+    for (let key in params) {
       url.searchParams.set(key, params[key]);
     }
     return url;
@@ -34,12 +35,18 @@ function LastFmRequests() {
   };
 }
 
+// const lasFm = {
+//   url: "http://ws.audioscrobbler.com/2.0",
+//   apiKey: "2cf860f449f80740452bbcee1d7a742e",
+//   apiSecret: "4e692081acc722a1e1fedd990e251fe6",
+// };
+
 // const testObj = {
 //   method: "chart.getTopArtists",
 //   format: "json",
 //   api_key: lasFm.apiKey,
 // };
 
-// LastFmRequests()
+// apiConnect()
 //   .request(testObj)
 //   .then((data) => console.log(data));
